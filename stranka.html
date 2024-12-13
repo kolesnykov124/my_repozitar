@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Kouzelná stránka s básní o přírodě a klidu.">
+    <meta name="author" content="Tvoje jméno">
+    <title>Kouzelná stránka</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a5acd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+            line-height: 1.6;
+            color: #333;
+        }
+        footer {
+            background-color: #6a5acd;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .poem {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 20px;
+            color: #2f4f4f;
+        }
+        .highlight {
+            color: #8a2be2;
+            font-weight: bold;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-    <h1>moje stranka</h1>
-    <h2>toto mozna je skvela stranka</h2>
+
+    <header>
+        <h1>Kouzelná stránka</h1>
+        <p>Objevte krásu přírody v každém verši</p>
+    </header>
+
+    <section>
+        <h2>Úvod</h2>
+        <p>Na kraji lesa, kde nebe se sklání,  
+            a řeka zpívá, jak vánky houpají,  
+            tam najdeš místo, co duši ukrývá,  
+            stránku, co v srdci ticho zanechává.</p>
+
+        <div class="poem">
+            <p><span class="highlight">Kameny v potoku</span> zpívají svou píseň,  
+                listí v korunách tančí v rytmu bříze,  
+                a květy ve stínu sní o teplém dni,  
+                srdce se ukryje v této poklidné chvíli.</p>
+
+            <p><span class="highlight">Slunce se schovává</span> v zlatém objetí,  
+                s příchodem noci vše začíná znovu snít,  
+                hvězdy svítí nad touto tajemnou krajinou,  
+                na této stránce, co nikdy nezmizí v zapomnění.</p>
+
+            <p><span class="highlight">Místo, kde čas</span> sám zpomalí svůj krok,  
+                kde každý nádech je jako včerejší smích,  
+                a v srdci tohoto světa zůstává naděje,  
+                že příběhy této stránky nikdy neskončí.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="https://via.placeholder.com/800x400" alt="Příroda">
+            <p>Obrázek znázorňující klidnou přírodu</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tvoje jméno | Všechna práva vyhrazena</p>
+    </footer>
+
 </body>
 </html>
